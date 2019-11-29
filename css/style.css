@@ -3,12 +3,8 @@ body {
   margin: 100px auto 0;
 }
 
-.container {
-  /* width: 60%; */
-}
-
 .container [class*="col-"] {
-  /* height: 370px; */
+  min-height: 370px;
   padding: 15px;
 }
 
@@ -27,8 +23,15 @@ h3 {
 }
 
 img {
-  height: 200px;
-  margin-bottom: 20px;
+  width: 80%;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+#screen {
+  width:100%;
+  max-width: 327px;
 }
 
 .container.cademi img {
@@ -41,4 +44,10 @@ img {
 p {
   font-size: 16px;
   margin-bottom: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .lg-hidden {
+    display: none;
+  }
 }
