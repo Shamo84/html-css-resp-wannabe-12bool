@@ -8,8 +8,11 @@ body {
   padding: 15px;
 }
 
-main .container {
+.background {
   background-color: #F9F9F9;
+}
+
+main .container {
   margin-top: 100px;
 }
 
